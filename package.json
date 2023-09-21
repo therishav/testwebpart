@@ -12,16 +12,17 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "tslib": "2.3.1",
-    "react": "17.0.1",
-    "react-dom": "17.0.1",
     "@fluentui/react": "^8.106.4",
-    "@microsoft/sp-core-library": "1.18.0",
     "@microsoft/sp-component-base": "1.18.0",
+    "@microsoft/sp-core-library": "1.18.0",
+    "@microsoft/sp-lodash-subset": "1.18.0",
+    "@microsoft/sp-office-ui-fabric-core": "1.18.0",
     "@microsoft/sp-property-pane": "1.18.0",
     "@microsoft/sp-webpart-base": "1.18.0",
-    "@microsoft/sp-lodash-subset": "1.18.0",
-    "@microsoft/sp-office-ui-fabric-core": "1.18.0"
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "tslib": "2.3.1",
+    "sp-pnp-js": "^3.0.10"
   },
   "devDependencies": {
     "@microsoft/rush-stack-compiler-4.7": "0.1.0",
